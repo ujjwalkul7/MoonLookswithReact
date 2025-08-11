@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import livingRoomImage from "../assets/living-room.png";
 import kitchenImage from "../assets/kitchen.jpg";
 import masterBedroomImage from "../assets/master-bedroom.png";
@@ -17,6 +17,21 @@ const Home = () => {
   const [floors, setFloors] = useState(1);
   const [totalCost, setTotalCost] = useState(0);
 
+  useEffect(() => {
+    // Dynamically add the AI Chatbox script
+    const script = document.createElement("script");
+    script.src = "https://widget.cxgenie.ai/widget.js";
+    script.dataset.aid = "bac054ad-1035-4a6e-94af-dfe12376fb0c";
+    script.dataset.lang = "en";
+    script.async = true;
+    document.body.appendChild(script);
+
+    // Cleanup script on component unmount
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   const calculateArea = () => {
     const calculatedArea = unit === "meters" ? length * width * 10.764 : length * width;
     setArea(calculatedArea);
@@ -28,7 +43,7 @@ const Home = () => {
 
   return (
     <div className="content-wrapper">
-    <div className="content">
+    <div className="content-1">
       <section id="home">
       <p>Welcome to MOON LOOKS! Our website is your go-to destination for innovative and personalized home design solutions. We specialize in helping you bring your dream home to life by offering a wide range of architectural and interior design options. Whether you are seeking modern, contemporary, or traditional styles, we provide an extensive collection of designs to match your unique taste and preferences.</p>
         <p>At MOON LOOKS, we understand that a home is more than just a structure; it's a reflection of your personality and lifestyle. Our team of skilled designers and architects work meticulously to create spaces that are not only aesthetically pleasing but also highly functional and comfortable. From initial concept to final execution, we are committed to delivering top-quality design services that cater to your specific needs.</p>
@@ -49,7 +64,7 @@ const Home = () => {
               <h3>Living Room</h3>
             </div>
           </a>
-          {/* Repeat similar structure for Kitchen, Master Bedroom, Dining Room, Kid's Bedroom, and Wardrobe */}
+          {/* Repeat similar structure for Kitchen, Master Bedroom, Dining Room, Kid's Bedroom, and Wardrobe */}          
           <a href="/kitchen" className="design-card">
             <img src={kitchenImage} alt="Kitchen" />
             <div className="card-info">
@@ -194,7 +209,8 @@ const Home = () => {
         <img src={CtoPhoto} alt="CEO & CTO Photo" className="ceo-cto-photo" />
         <div className="message">
           <h3>Message from the CTO</h3>
-          <p>At MOON LOOKS, we believe that great design has the power to transform lives...</p>
+          <p>At MOON LOOKS, we believe that great design has the power to transform lives. Our mission is to bring your vision to life by creating beautiful and functional spaces that truly reflect your unique style and needs. We are passionate about delivering exceptional design solutions and are committed to providing our clients with an outstanding experience from start to finish.</p>
+          <p>Thank you for choosing MOON LOOKS. We look forward to working with you to create the home of your dreams.</p>
           <p><strong>UJJWAL KULSHRESTHA<br />CTO, MOON LOOKS</strong></p>
         </div>
       </div>

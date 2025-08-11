@@ -36,19 +36,19 @@ const Footer = () => {
           <div className="qr-code-wrapper">
             <div className="qr-container">
               <a
-                href="https://wa.me/7302888237"
+                href="https://t.me/moon_looks"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Click to View"
               >
                 <img
-                  src={require("../assets/whatsapp_qr.png")}
-                  alt="WhatsApp QR Code"
+                  src={require("../assets/telegram_qr.png")}
+                  alt="Telegram QR Code"
                   className="qr-code"
                 />
                 <span className="qr-hover-text">Click to View</span>
               </a>
-              <p className="qr-label">WhatsApp</p>
+              <p className="qr-label">Telegram</p>
             </div>
             <div className="qr-container">
               <a

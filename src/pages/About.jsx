@@ -10,6 +10,8 @@ function About() {
                 />
 
     <div className="content-wrapper">
+
+      
       
     <div className="content_about_us">
     <section>

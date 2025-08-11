@@ -16,13 +16,13 @@ function Contact() {
 
       <h3>Address</h3>
       <p>MOON LOOKS<br/>
-      123 Dream Street<br/>
-      Creative City, IN 123456</p>
+      Greater Noida,<br/>
+      Uttar Pradesh</p>
 
       <h3>Social Media</h3>
-      <p>Follow us on <a href="https://www.instagram.com/_moon_looks_" target="_blank">Instagram</a> and connect with us on <a href="https://wa.me/7302888237" target="_blank">WhatsApp</a> for the latest updates and design inspiration.</p>
+      <p>Follow us on <a href="https://www.instagram.com/_moon_looks_" >Instagram</a> and connect with us on <a href="https://wa.me/7302888237" >WhatsApp</a> for the latest updates and design inspiration.</p>
     </section>
-  </div>
+ </div>
   </div>
 
   );

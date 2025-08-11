@@ -297,6 +297,13 @@ footer-section {
   padding: 20px;
 }
 
+.content-1{
+  width: 65%;
+  margin-top: 250px;
+  padding: 20px;
+}
+
+
 section {
   margin: 20px 0;
 }
@@ -350,12 +357,19 @@ section p {
 }
 
 
+
+.content{
+  width: 65%;
+  margin-left: 300px;
+  margin-top: 250px;
+  padding: 20px;
+}
 .design-gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-around;
   margin-top: 20px;
+  margin-left: 40px;
 }
 
 .design-gallery figure {
@@ -629,7 +643,7 @@ section p {
 
 /* Title styling */
 .login-container h2 {
-  color: rgb(8,105, 114);
+  color: black !important;
   margin-bottom: 15px;
   font-size: 24px;
   font-weight: bold;
@@ -644,151 +658,6 @@ section p {
   margin-bottom: 20px;
   font-weight: bold;
 }
-
-/* Form label styling */
-.login-container label {
-  display: block;
-  margin: 10px 0 5px;
-  color: rgb(8,105, 114);
-  font-weight: bold;
-}
-
-/* Input field styling */
-.login-container input[type="text"],
-.login-container input[type="password"] {
-  width: 250px;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  outline: none;
-  transition: border-color 0.3s;
-}
-
-.login-container input[type="text"]:focus,
-.login-container input[type="password"]:focus {
-  border-color: rgb(8,105, 114);
-}
-
-/* Button styling */
-.login-container button {
-  width: 100%;
-  padding: 10px;
-  background-color: rgb(8,105, 114);
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.login-container button:hover {
-  background-color: rgb(8,105, 114);
-}
-
-/* Sign up link styling */
-.login-container p {
-  margin-top: 10px;
-  font-size: 14px;
-}
-
-.login-container p a {
-  color: rgb(8,105, 114);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.login-container p a:hover {
-  text-decoration: underline;
-}
-
-
-/* Signup Container */
-.signup-container {
-  margin-top: 200px;
-  margin-bottom: 100px;
-  width: 300px; /* Fixed width for the card */
-  padding: 20px;
-  border-radius: 10px; /* Rounded corners */
-  background-color: #ffffff; /* White card background */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  text-align: center; /* Center text inside */
-}
-
-/* Heading */
-.signup-container h2 {
-  font-size: 24px; /* Larger font size for heading */
-  font-weight: bold;
-  color: rgb(8, 105, 114); /* Teal color */
-  margin-bottom: 15px;
-}
-
-/* Subheading */
-.signup-container .subheading {
-  background-color: rgb(8,105, 114);
-  color: #fff;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
-/* Labels */
-.signup-container label {
-  isplay: block;
-  margin: 10px 0 5px;
-  color: rgb(8,105, 114);
-  font-weight: bold;
-}
-
-/* Input Fields */
-.signup-container input {
-  width: 250px;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  outline: none;
-  transition: border-color 0.3s;
-}
-
-.signup-container input:focus {
-  border-color: rgb(8, 105, 114); /* Highlight border on focus */
-}
-
-/* Button */
-.signup-container button {
-  width: 100%; /* Full width button */
-  padding: 10px;
-  background-color: rgb(8, 105, 114); /* Teal background */
-  color: white; /* White text */
-  border: none;
-  border-radius: 5px; /* Rounded corners */
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-/* Bottom Text */
-.signup-container p {
-  margin-top: 10px;
-  font-size: 14px;
-}
-
-.signup-container a {
-  color: rgb(8, 105, 114); /* Teal color for links */
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.signup-container a:hover {
-  text-decoration: underline;
-}
-
-
-
 
 .design-gallery {
   display: flex;
@@ -833,9 +702,9 @@ html, body {
 
 
 .content {
-  flex: 1; 
-  padding: 0px;
-
+  width: 65%;
+  margin-top: 250px;
+  padding: 20px;
 }
 
 
@@ -929,6 +798,55 @@ html, body {
 }
 
 
+.form-container {
+  max-width: 400px;
+  max-height: 600px;
+  margin: 300px auto;
+  padding: 30px;
+  background-color:white;
+  color: rgb(8,104,114);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgb(8, 105, 114);
+  text-align: center;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-box input {
+  padding: 10px;
+  border-color: rgb(8, 105, 114) ;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.form-box button {
+  background-color: rgb(8, 105, 114);
+  border: none;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.form-box button:hover {
+  background-color: rgb(6, 84, 92);
+}
+
+.form-link {
+  margin-top: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #ccc;
+}
+
+
+
 
 .social-links a {
   margin: 0 10px;
@@ -961,7 +879,7 @@ html, body {
 .professional-footer {
   background-color: #086972; 
   color: white;
-  width: 99.1vw; 
+  width: 99.2vw; 
   padding: 30px 0;
   font-family: Arial, sans-serif;
   position: relative; 
