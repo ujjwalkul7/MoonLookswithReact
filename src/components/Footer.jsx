@@ -34,29 +34,29 @@ const Footer = () => {
         <div className="footer-section join-us">
           <h3>Join Us</h3>
           <div className="qr-code-wrapper">
-            <div className="qr-container">
+{/*             <div className="qr-container">
               <a
                 href="https://t.me/moon_looks"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Click to View"
               >
-{/*                 <img
-                  src={require("../assets/telegram_qr.png")}
-                  alt="Telegram QR Code"
+                <img
+                  src={require("../assets/instagram_qr.png")}
+                  alt="Instagram QR Code"
                   className="qr-code"
                 />
                 <span className="qr-hover-text">Click to View</span>
               </a>
-              <p className="qr-label">Telegram</p>
-            </div>
+              <p className="qr-label">Instagram</p>
+            </div> */}
             <div className="qr-container">
               <a
-                href="https://www.instagram.com/_moon_looks_"
+                href="https://www.instagram.com/moon.looks_?igsh=MTRuZDFtM2hrcTg3Zg=="
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Click to View"
-              > */}
+              >
                 <img
                   src={require("../assets/instagram_qr.png")}
                   alt="Instagram QR Code"
