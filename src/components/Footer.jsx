@@ -41,7 +41,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 title="Click to View"
               >
-                <img
+{/*                 <img
                   src={require("../assets/telegram_qr.png")}
                   alt="Telegram QR Code"
                   className="qr-code"
@@ -56,7 +56,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Click to View"
-              >
+              > */}
                 <img
                   src={require("../assets/instagram_qr.png")}
                   alt="Instagram QR Code"
