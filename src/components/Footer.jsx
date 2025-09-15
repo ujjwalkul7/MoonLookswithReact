@@ -36,7 +36,7 @@ const Footer = () => {
           <div className="qr-code-wrapper">
 {/*             <div className="qr-container">
               <a
-                href="https://t.me/moon_looks"
+                href="https://www.instagram.com/moon.looks_?igsh=MTRuZDFtM2hrcTg3Zg=="
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Click to View"
