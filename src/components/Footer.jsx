@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-section join-us">
-          <h3>Join Us</h3>
+          <h4>Join Us</h4>
           <div className="qr-code-wrapper">
 {/*             <div className="qr-container">
               <a
