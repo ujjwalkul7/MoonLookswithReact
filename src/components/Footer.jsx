@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="footer-section join-us">
           <h4>Join Us</h4>
           <div className="qr-code-wrapper">
-{/*             <div className="qr-container">
+ {/*             <div className="qr-container">
               <a
                 href="https://www.instagram.com/moon.looks_?igsh=MTRuZDFtM2hrcTg3Zg=="
                 target="_blank"
