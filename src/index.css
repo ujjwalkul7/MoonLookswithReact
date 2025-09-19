@@ -985,6 +985,7 @@ html, body {
 
 
 
+
 /* Mobile Responsive Styling */
 @media (max-width: 768px) {
 
@@ -1187,6 +1188,12 @@ html, body {
   margin-bottom: 15px;
   color: #fff;
   text-transform: uppercase;
+}
+
+
+.qr-container {
+  position: relative;
+  margin-left: 0.78125vw;
 }
 
 .footer-section .qr-code-wrapper{
