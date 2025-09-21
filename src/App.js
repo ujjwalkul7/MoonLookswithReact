@@ -17,12 +17,15 @@ import MasterBedroom from './pages/Master_bedroom';
 import DiningRoom from './pages/Dining_room';
 import KidsBedroom from './pages/Kids_bedroom';
 import Wardrobe from './pages/Wordrobe';
+import ScrollToTop from "./ScrollToTop";
+
 
 
 function App() {
   return (
     <div>
       <Header />
+       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/design" element={<Design />} />
