@@ -1047,11 +1047,14 @@ html, body {
     background: rgba(255, 255, 255, 0.9); /* Semi-transparent */
     backdrop-filter: blur(8px); /* Glassy effect */
     position: absolute;
-    top: 108px;
-    right: 0px;
-    width: 160px;
+    align-items: center;       /* horizontal center */
+    text-align: center;  
+    top: 107px;
+    right: 17px;
+    height: 350px;
+    width: 310px;
     padding: 20px;
-    gap: 15px;
+    gap: 35px;
     border: 1px solid rgba(8, 105, 114, 0.3);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(8, 105, 114, 0.2);
@@ -1087,10 +1090,12 @@ html, body {
   nav.active ul li {
     opacity: 1;
     transform: translateY(0);
+    align-items: center;
   }
 
   nav ul li a {
-    font-size: 18px;
+    right: 400px;
+    font-size: 24px;
     color: rgb(8, 105, 114);
     text-decoration: none;
     transition: background 0.3s ease, color 0.3s ease;
@@ -1103,10 +1108,20 @@ html, body {
     border-radius: 4px;
   }
 
+
+  
   /* Hide sub-nav-bar in mobile if not needed */
   .sub-nav-bar {
     display: none;
   }
+
+nav ul li img.login-icon {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  filter: none;       /* ✅ remove unwanted color inversion */
+  z-index: 2000;      /* ✅ make sure it's on top */
+}
 
 
 
@@ -1364,6 +1379,16 @@ section p {
   color: rgb(8, 105, 114);
   font-size: 16px;
   line-height: 1.6;
+}
+
+
+.about_us_main_pic img {
+  margin-top: 11.191521574564724vh;
+  margin-left: 45px; 
+  height: 25.85011355034065vh;
+  width: 80.40625vw;
+  margin-bottom: -1.514004542013626vh;
+  align-items: center;
 }
 }
 
