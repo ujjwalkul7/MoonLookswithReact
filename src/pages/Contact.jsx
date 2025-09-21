@@ -8,9 +8,9 @@ function Contact() {
       <h2>Contact Us</h2>
       <p>We'd love to hear from you! Whether you have a question about our designs, need assistance, or just want to share your thoughts, we're here to help. Reach out to us through any of the methods below.</p>
       
-      <h3>Phone</h3>
+{/*       <h3>Phone</h3>
       <p>+91-7302888237</p>
-
+ */}
       <h3>Email</h3>
       <p><a href="mailto:contact@moonlooks.com">contact@moonlooks.com</a></p>
 
