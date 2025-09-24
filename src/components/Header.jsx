@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import loginIcon from '../assets/login_icon.png';
+import { FaUserCircle } from "react-icons/fa";
+
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -57,8 +59,8 @@ function Header() {
                 )}
                 <li>
                   <Link to="/login" onClick={() => setMenuOpen(false)}>
-                    <img src={loginIcon} alt="Login Icon" style={{ width: '20px', height: '20px' }} />
-                  </Link>
+                  <FaUserCircle size={22} color="rgb(8,105,114)" />
+                </Link>
                 </li>
               </>
             )}
@@ -76,8 +78,8 @@ function Header() {
                 <li><Link to="/dashboard">Dashboard</Link></li>
               )}
               <li>
-                <Link to="/login">
-                  <img src={loginIcon} alt="Login Icon" style={{ width: '20px', height: '20px' }} />
+                <Link to="/login" onClick={() => setMenuOpen(false)}>
+                  <FaUserCircle size={22} color="rgba(255, 255, 255, 1)" />
                 </Link>
               </li>
             </ul>
