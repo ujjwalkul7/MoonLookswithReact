@@ -23,7 +23,7 @@ const FlatsFloorPlans = () => {
   ];
 
   return (
-    <div className="content">
+    <div className="content-2">
       <section id="flatsFloorPlans">
         <h2>Flats Floor Plans</h2>
         <p>Discover our premium collection of luxury designs, where elegance meets sophistication.</p>
