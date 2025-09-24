@@ -32,7 +32,7 @@ const VillasFloorPlans = () => {
   return (
     <div className="villas-page">        
 
-      <div className="content">
+      <div className="content-2">
         <section id="villasFloorPlans">
           <h2>Villas Floor Plans</h2>
           <p>Explore our range of functional and aesthetically pleasing normal designs.</p>
