@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
-import loginIcon from '../assets/login_icon.png';
 import { FaUserCircle } from "react-icons/fa";
 
 
