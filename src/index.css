@@ -991,6 +991,7 @@ html, body {
 
 
 
+
 /* Mobile Responsive Styling */
 @media (max-width: 768px) {
 
@@ -1161,13 +1162,13 @@ nav ul li img.login-icon {
 
 .footer-section.contact-us{
   min-width: 300px; 
-  margin-left: -55px;
+  margin-left: -65px;
 }
 
 
 .footer-section.join-us{
   min-width: 300px;
-  margin-left: -55px;
+  margin-left: -65px;
 }
 
 .footer-line {
@@ -1294,8 +1295,8 @@ nav ul li img.login-icon {
 }
 
 .content-1{
-  width: 75%;
-  margin-top: 160px;
+  width: 70%;
+  margin-top: 250px;
   padding: 2px;
 }
 
@@ -1386,6 +1387,16 @@ section p {
   line-height: 1.6;
 }
 
+.content-2{
+  justify-content: center;
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 200px;
+  padding: 20px;
+}
+
+
+
 
 .about_us_main_pic img {
   margin-top: 11.191521574564724vh;
@@ -1395,3 +1406,4 @@ section p {
   align-items: center;
 }
 }
+
