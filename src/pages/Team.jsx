@@ -15,18 +15,6 @@ function Team() {
           {/* Team Member 1 */}
           <div className="team-member">
             <div className="team-member-photo">
-              <img src="/assets/member1.jpg" alt="Team Member 1" />
-            </div>
-            <div className="team-member-info">
-              <h3>Member Name</h3>
-              <p className="position">Chief Executive Officer</p>
-              <p className="bio">Brief bio about the team member.</p>
-            </div>
-          </div>
-
-          {/* Team Member 2 */}
-          <div className="team-member">
-            <div className="team-member-photo">
             <img
                   src={require("../assets/cto_photo.png")}
                   alt="CTO Photo"
@@ -34,7 +22,7 @@ function Team() {
             </div>
             <div className="team-member-info">
               <h3>Ujjwal Kulshrestha</h3>
-              <p className="position">Chief Technology Officer</p>
+              <p className="position">Founder & CTO</p>
               <div className="social-links">
                 <a
                   href="https://www.linkedin.com/in/ujjwal-kulshrestha/"
@@ -60,6 +48,18 @@ function Team() {
               </p>
             </div>
           </div>
+
+          {/* Team Member 2
+          <div className="team-member">
+            <div className="team-member-photo">
+              <img src="/assets/member1.jpg" alt="" />
+            </div>
+            <div className="team-member-info">
+              <h3>Member Name</h3>
+              <p className="position">Chief Executive Officer</p>
+              <p className="bio">Brief bio about the team member.</p>
+            </div>
+          </div> */}
 
           {/* Team Member 3 */}
           <div className="team-member">
