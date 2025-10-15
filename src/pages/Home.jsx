@@ -208,10 +208,10 @@ const Home = () => {
       <div className="ceo-cto-container">
         <img src={CtoPhoto} alt="CEO & CTO Photo" className="ceo-cto-photo" />
         <div className="message">
-          <h3>Message from the CTO</h3>
+          <h3>Message from the Founder & CTO</h3>
           <p>At MOON LOOKS, we believe that great design has the power to transform lives. Our mission is to bring your vision to life by creating beautiful and functional spaces that truly reflect your unique style and needs. We are passionate about delivering exceptional design solutions and are committed to providing our clients with an outstanding experience from start to finish.</p>
           <p>Thank you for choosing MOON LOOKS. We look forward to working with you to create the home of your dreams.</p>
-          <p><strong>UJJWAL KULSHRESTHA<br />CTO, MOON LOOKS</strong></p>
+          <p><strong>UJJWAL KULSHRESTHA<br />Founder & CTO, MOON LOOKS</strong></p>
         </div>
       </div>
     </div>
